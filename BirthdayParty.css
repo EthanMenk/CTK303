@@ -1,0 +1,59 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: goldenrod;
+  }
+
+header{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    background-image: url(VinylBackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+h1{
+    margin:0px;
+    color:white;
+}
+h2{
+    margin:0px;
+    color:white;
+}
+h3{
+    margin:0px;
+    color:white;
+}
+h4{
+    margin:0px;
+    color:white;
+}
+
+
+#diddy{
+    font-size: 5px;
+}
+
+#redWords{
+    color:red;
+}
+
+#NumberOne{
+    color:red;
+    font-size: 80px;
+    margin:0px;
+}
+
+a{
+    color:yellowgreen;
+    text-decoration: underline;
+
+}
+
+body{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+
+}

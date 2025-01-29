@@ -1,0 +1,58 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: green;
+  }
+
+header{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+}
+
+body{
+    background-color: darkgrey;
+    height:320px;
+    padding: 10px;
+    text-align: center;
+    transition: background-color 1.0s, width 5.0s, color 2.0s;
+}
+
+#cube {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 500px;
+    height: 300px;
+    border: 500px;
+    background-color: #600;
+    transition: 5s ease-in-out;
+}
+
+#cube:active
+{
+    right:90%;
+}
+
+#cube:active .spinny img{
+    transform: rotate(-3600deg);
+}
+
+.spinny {
+    width:30%;
+}
+.spinny img {
+    transition: 5s ease-in-out;
+}
+.spinny:hover img {
+    transform: rotate(3600deg);
+  }
+
+#wheel1{
+    position: absolute;
+    right: 0%;
+    top:90%
+}
+#wheel2{
+    position: absolute;
+    top:90%
+}

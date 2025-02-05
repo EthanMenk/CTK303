@@ -1,0 +1,39 @@
+#L {
+    animation: cfade 1.0s;
+  }
+
+  @keyframes cfade {
+    0%   { transform: translate(0, -200px);}
+    100% { transform: translate(0, 0);}
+  }
+
+  #E {
+    animation: efade 1.0s;
+    transform-origin: center;
+  }
+  
+  @keyframes efade {
+    0%   { transform: rotate(360deg);}
+    100% { transform: rotate(0deg);}
+  }
+
+  #M {
+    animation: mfade 1.0s;
+    transform-origin: center;
+  }
+  
+  @keyframes mfade {
+    0%   { transform: rotate(360deg);}
+    100% { transform: rotate(0deg);}
+  }
+
+  #TheImage {
+    display: block;
+    transition: background-color 1.0s, transform .25s linear;
+    transform-origin: center top;
+  }
+  
+  #TheImage:hover {
+    transform: scale(0.9);
+    background-color: skyblue;
+  }
